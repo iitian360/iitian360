@@ -2,13 +2,16 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # runs every day
+    - cron: "0 0 * * *"  # runs daily
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Create output directory
+        run: mkdir -p dist
+
       - name: Generate the snake animation
         uses: Platane/snk@v3
         with:
