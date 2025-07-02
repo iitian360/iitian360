@@ -26,5 +26,9 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=iitian360&" alt="iitian360" /></p>
 
+---
+
+### 📈 Contribution Snake
+
 ![Snake animation](https://github.com/iitian360/iitian360/blob/output/github-contribution-grid-snake.svg)
 
